@@ -10,7 +10,7 @@ from rest_framework_jwt.settings import api_settings
 
 from .serializers import RegisterSerializer, UserSerializer
 
-
+#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
 # Register API
 class RegisterApi(generics.GenericAPIView):
     permission_classes = (AllowAny,)
