@@ -1,0 +1,13 @@
+asgiref==3.4.1
+Django==3.2.6
+django-mysql==3.12.0
+django-utils-six==2.0
+djangorestframework==3.12.4
+djangorestframework-jwt==1.11.0
+djangorestframework-simplejwt==4.0.0
+mysql-connector-python-rf==2.2.2
+mysqlclient==2.0.3
+PyJWT==1.7.1
+pytz==2021.1
+sqlparse==0.4.1
+typing-extensions==3.10.0.0

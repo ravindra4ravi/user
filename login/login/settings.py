@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework.authtoken',
+    'django_mysql',
 
 ]
 
@@ -80,8 +81,9 @@ WSGI_APPLICATION = 'login.wsgi.application'
 DATABASES = {
     'default': {
         'NAME': 'login',
-        'ENGINE': 'mysql.connector.django',
+        'ENGINE': 'django.db.backends.mysql',
         'USER': 'root',
+        'HOST': '127.0.0.1',
         'PASSWORD': 'root',
 
     }
